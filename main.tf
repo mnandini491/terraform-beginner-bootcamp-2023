@@ -1,9 +1,12 @@
 terraform {
+terraform-cloud
   cloud {
     organization = "nancloudterraform"
 
     workspaces {
       name = "terrahouse-1"
+
+
     }
   }
   required_providers {
