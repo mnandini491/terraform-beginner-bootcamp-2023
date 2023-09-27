@@ -1,5 +1,5 @@
 terraform {
-terraform-cloud
+
   cloud {
     organization = "nancloudterraform"
 
