@@ -1,16 +1,12 @@
 terraform {
-  #backend "remote" {
-  #  hostname = "app.terraform.io"
-  #  organization = "ExamPro"
-
-  #  workspaces {
-  #    name = "terra-house-1"
-  #  }
-  #}
+terraform-cloud
   cloud {
-    organization = "ExamPro"
+    organization = "nancloudterraform"
+
     workspaces {
-      name = "terra-house-1"
+      name = "terrahouse-1"
+
+
     }
   }
   required_providers {
